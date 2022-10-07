@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Designing_Images</string>
+
+
+    <string name="post">Post</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
+    <string name="post1">51</string>
+    <string name="followers1">394</string>
+    <string name="following1">626</string>
+
+    <string name="text_heading">Complete Profile</string>
+
+
+</resources>

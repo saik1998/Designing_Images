@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            style="@style/TextView_normal"
+            android:id="@+id/back"
+            android:text="Back"/>
+
+        <ImageView
+            style="@style/TextView_normal"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_more_horiz_24" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="10dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_foreground" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="0.3"
+            android:id="@+id/first">
+
+            <TextView
+               style="@style/followers"
+                android:text="@string/post"/>
+
+            <TextView
+                android:text="@string/post1"
+                style="@style/rating" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/second"
+            android:layout_margin="10dp"
+            android:layout_weight="0.3">
+            <TextView
+                style="@style/followers"
+                android:text="@string/followers"
+
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:text="@string/followers1"
+                style="@style/rating" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="0.3"
+            >
+            <TextView
+                style="@style/followers"
+                android:text="@string/following"/>
+
+            <TextView
+                android:text="@string/following1"
+                style="@style/rating" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextView_Heading"
+        android:text="@string/text_heading"/>
+
+
+
+
+
+
+</LinearLayout>
