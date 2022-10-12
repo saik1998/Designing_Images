@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="10dp"
-    tools:context=".MainActivity">
-
+    tools:context=".ActivityTwo">
 
 
     <RelativeLayout
@@ -69,7 +67,7 @@
             android:id="@+id/first">
 
             <TextView
-               style="@style/followers"
+                style="@style/followers"
                 android:text="@string/post"/>
 
             <TextView
@@ -173,10 +171,10 @@
                         style="@style/linear_text"
                         android:text="@string/linear_text1"/>
 
-<!--                    <View-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="5dp"-->
-<!--                        android:backgroundTint="@color/purple_700"/>-->
+                    <!--                    <View-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="5dp"-->
+                    <!--                        android:backgroundTint="@color/purple_700"/>-->
 
 
 
@@ -265,9 +263,8 @@
 
 
     <TextView
-       style="@style/TextView_Thank"
+        style="@style/TextView_Thank"
         android:text="@string/thank"/>
-
 
 
 

@@ -12,5 +12,15 @@
 
     <string name="text_heading">Complete Profile</string>
 
+    <string name="card">Profile Details</string>
+    <string name="card_details">Reels Details</string>
+
+    <string name="linear_text">Images</string>
+    <string name="linear_text1">Reels</string>
+    <string name="linear_text2">News</string>
+    <string name="linear_text3">Moives</string>
+
+    <string name="thank">Thank you</string>
+
 
 </resources>
